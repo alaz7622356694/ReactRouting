@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Route} from 'react-router-dom'
 import Posts from './Posts/Posts'
 
 import './Blog.css'
@@ -20,7 +20,8 @@ class Blog extends React.Component {
             </ul>
           </nav>
         </header>
-        <Posts />
+        <Route path="/" exact render={()=><h2>Home</h2>}/>
+        <Route path="/" render={()=><h2>Home2</h2>}/>
       </div>
     )
   }
