@@ -2,6 +2,7 @@ import React from 'react'
 import {Route,Link} from 'react-router-dom'
 import Posts from './Posts/Posts'
 import NewPost from '../../containers/Blog/NewPost/NewPost'
+import FullPost from '../../containers/Blog/FullPost/FullPost'
 import './Blog.css'
 
 class Blog extends React.Component {
@@ -24,7 +25,8 @@ class Blog extends React.Component {
           </nav>
         </header>
         <Route path="/" exact component={Posts} />
-        <Route path="/NewPost" exact component={NewPost} />
+        <Route path="/NewPost" component={NewPost} />
+        <Route path="/:id" exact component={FullPost} />
        
       </div>
     )

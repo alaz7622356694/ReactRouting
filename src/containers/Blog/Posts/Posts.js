@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from '../../../axios'
+import {Link} from 'react-router-dom'
 
 import Post from '../../../components/Post/Post'
 
@@ -38,12 +39,13 @@ class Posts extends React.Component {
     if (!this.state.error) {
       posts = this.state.posts.map((item) => {
         return (
+          <Link to={`/${item.id}`} key={item.id}>
           <Post
-            key={item.id}
             title={item.title}
             author={item.author}
             click={() => this.selectPostHandler(item.id)}
           />
+          </Link>
         )
       })
     }
