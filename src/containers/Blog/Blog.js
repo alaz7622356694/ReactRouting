@@ -20,8 +20,8 @@ class Blog extends React.Component {
             </ul>
           </nav>
         </header>
-        <Route path="/" exact render={()=><h2>Home</h2>}/>
-        <Route path="/" render={()=><h2>Home2</h2>}/>
+        <Route path="/" exact component={Posts} />
+       
       </div>
     )
   }
