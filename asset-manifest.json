@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactRouting/static/css/main.480b3403.chunk.css",
+    "main.js": "/ReactRouting/static/js/main.1d170628.chunk.js",
+    "main.js.map": "/ReactRouting/static/js/main.1d170628.chunk.js.map",
+    "runtime-main.js": "/ReactRouting/static/js/runtime-main.cc8c170a.js",
+    "runtime-main.js.map": "/ReactRouting/static/js/runtime-main.cc8c170a.js.map",
+    "static/js/2.65767616.chunk.js": "/ReactRouting/static/js/2.65767616.chunk.js",
+    "static/js/2.65767616.chunk.js.map": "/ReactRouting/static/js/2.65767616.chunk.js.map",
+    "index.html": "/ReactRouting/index.html",
+    "precache-manifest.d411096d8192dd5970e604f0aba7d51d.js": "/ReactRouting/precache-manifest.d411096d8192dd5970e604f0aba7d51d.js",
+    "service-worker.js": "/ReactRouting/service-worker.js",
+    "static/css/main.480b3403.chunk.css.map": "/ReactRouting/static/css/main.480b3403.chunk.css.map",
+    "static/js/2.65767616.chunk.js.LICENSE.txt": "/ReactRouting/static/js/2.65767616.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc8c170a.js",
+    "static/js/2.65767616.chunk.js",
+    "static/css/main.480b3403.chunk.css",
+    "static/js/main.1d170628.chunk.js"
+  ]
+}
