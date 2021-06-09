@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route,Link ,Switch} from 'react-router-dom'
+import {Route,Link ,Switch , Redirect} from 'react-router-dom'
 import Posts from './Posts/Posts'
 import NewPost from '../../containers/Blog/NewPost/NewPost'
 import FullPost from '../../containers/Blog/FullPost/FullPost'
@@ -25,9 +25,11 @@ class Blog extends React.Component {
           </nav>
         </header>
        <Switch>
-       <Route path="/" exact component={Posts} />
+       <Route path="/" component={Posts} />
         <Route path="/NewPost" component={NewPost} />
+        <Route path="/test" render={()=><h2>Testing</h2>} />
         <Route path="/:id" exact component={FullPost} />
+        <Redirect from="/test" to="/"/>
        </Switch>
       </div>
     )
